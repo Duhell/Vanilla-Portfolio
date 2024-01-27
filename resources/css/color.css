@@ -1,0 +1,24 @@
+:root{
+    --mainColor: #c5a66c;
+    --hoveredMainColor:#6b5835;
+    --white:rgb(233, 227, 227);
+    --fade-white:rgb(179, 179, 179);
+    --text-green: rgb(92, 241, 124);
+    --text-yellow: rgb(240, 237, 51);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-fade-white{
+    color: var(--fade-white);
+}
+
+.text-green {
+    color: var(--text-green);
+}
+
+.text-yellow{
+    color: var(--text-yellow);
+}
