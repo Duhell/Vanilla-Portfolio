@@ -1,5 +1,5 @@
 import { BioComponent } from "./views/BioComponent.js"
-import { CertificatesComponent } from "./views/CertificatesComponent.js"
+import { ContactComponent } from "./views/ContactComponent.js"
 import { FooterComponent } from "./views/FooterComponent.js"
 import { HeroComponent } from "./views/HeroComponent.js"
 import { NavComponent } from "./views/NavComponent.js"
@@ -12,8 +12,8 @@ const render = ()=>{
        ${HeroComponent()}
        ${ProjectsComponent()}
        ${BioComponent()}
-       ${CertificatesComponent()}
+       ${ContactComponent()}
+       ${FooterComponent()}
     `
 }
-
 document.getElementById('app').insertAdjacentHTML('beforeend',render())
